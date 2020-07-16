@@ -2,8 +2,8 @@ version : '2.1'
 
 services:
   registry:
-    container_name: tarunt3rry/centime:registry
-    image: registry
+    container_name: registry
+    image: tarunt3rry/centime:registry
     restart: always
     ports:
       - 8761:8761
