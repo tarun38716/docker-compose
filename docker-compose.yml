@@ -37,9 +37,3 @@ services:
       - registry
     environment:
       - eureka.client.serviceUrl.defaultZone=http://registry:8761/eureka/
-  task2:
-    container_name: task2
-    image: tarunt3rry/centime:task2
-    restart: always
-    ports:
-      - 9090:9090
